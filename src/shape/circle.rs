@@ -18,9 +18,6 @@ impl Circle {
     pub fn new(radius: f64) -> Self {
         Self { radius }
     }
-    fn size(&self) -> f64 {
-        self.radius
-    }
 }
 impl super::Shape for Circle {
     /// Calculates and returns the area of the square.

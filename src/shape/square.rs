@@ -18,10 +18,6 @@ impl Square {
     pub fn new(side: f64) -> Self {
         Self { side }
     }
-
-    fn size(&self) -> f64 {
-        self.side
-    }
 }
 impl super::Shape for Square {
     /// Calculates and returns the area of the square.

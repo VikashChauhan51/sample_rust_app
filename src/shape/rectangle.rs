@@ -7,9 +7,6 @@ impl Rectangle {
         Self { width, height }
     }
 
-    fn size(&self) -> (f64, f64) {
-        (self.width, self.height)
-    }
 }
 
 impl super::Shape for Rectangle {
